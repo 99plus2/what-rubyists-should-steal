@@ -1,5 +1,6 @@
-!SLIDE 
-# My Presentation #
+<!SLIDE title-slide>
+
+# First Slide #
 
 !SLIDE bullets incremental
 # Bullet Points #
