@@ -1,0 +1,26 @@
+Talk notes:
+
+  Things clojure does better:
+    * macros / homoiconicity
+      * metaprogramming is easier - give macro example that you can't do in ruby
+    * functions in a lisp~1
+    * namespaces
+    * anaphora
+    * destructuring
+      * proposal to add in JS: http://wiki.ecmascript.org/doku.php?id=proposals:destructuring_assignment
+    * stupid stuff
+      * commas as whitespace
+      * dashes instead of underscores
+      * syntax sugar as described here: http://briancarper.net/blog/536/
+  Things coffescript does better:
+    * list comprehensions
+    * whitespace sensitivity
+      * show ruby without ends
+    * is/isn't/in
+    * ?. for soaking up nulls
+      * like #try, maybe bad?
+    * chained comparisons healthy = 200 > cholesterol > 60
+
+To Read:
+* Why functional programming matters
+* Little Schemer
