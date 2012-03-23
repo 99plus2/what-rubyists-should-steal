@@ -1,20 +1,10 @@
-!SLIDE
+<!SLIDE code>
 .notes notes for my slide
 
-	@@@ javascript
-	function setupPreso() {
-	  if (preso_started)
-	  {
-	     alert("already started")
-	     return
-	  }
-	  preso_started = true
-
-	  loadSlides()
-	  doDebugStuff()
-
-	  document.onkeydown = keyDown
-	}
+	@@@ ruby
+        def foo(bar)
+          puts "Hey"
+        end
 
 !SLIDE commandline incremental
 

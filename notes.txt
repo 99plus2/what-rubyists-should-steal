@@ -1,18 +1,11 @@
 Talk notes:
 
-  Things clojure does better:
-    * macros / homoiconicity
-      * metaprogramming is easier - give macro example that you can't do in ruby
-    * functions in a lisp~1
-    * namespaces
-    * anaphora
-    * destructuring
-      * proposal to add in JS: http://wiki.ecmascript.org/doku.php?id=proposals:destructuring_assignment
-    * stupid stuff
-      * commas as whitespace
-      * dashes instead of underscores
-      * syntax sugar as described here: http://briancarper.net/blog/536/
-  Things coffescript does better:
+  * 5-second intro
+  * I'm scared right now - dangerous to talk about peoples' fav languages
+  * Story about why no haskell - other talk is about boring deployment stuff so you're probably stuck here
+  * Starting with coffeescript because it's similar to Ruby
+    * you can see how these things could be brought to the language
+  * Things coffescript does better:
     * list comprehensions
     * whitespace sensitivity
       * show ruby without ends
@@ -20,6 +13,25 @@ Talk notes:
     * ?. for soaking up nulls
       * like #try, maybe bad?
     * chained comparisons healthy = 200 > cholesterol > 60
+  * Things clojure does better:
+    * anaphora
+    * functions in a lisp~1
+    * macros / homoiconicity
+      * metaprogramming is easier - give macro example that you can't do in ruby
+    * namespaces
+    * destructuring
+      * proposal to add in JS: http://wiki.ecmascript.org/doku.php?id=proposals:destructuring_assignment
+    * stupid stuff
+      * commas as whitespace
+      * dashes instead of underscores
+      * syntax sugar as described here: http://briancarper.net/blog/536/
+   * Where to go from here?
+     * learn Clojure
+     * learn coffeescript
+     * fork ruby?!
+   * Recommended reading
+     * Why functional programming matters?
+     * Joy of clojure
 
 To Read:
 * Why functional programming matters

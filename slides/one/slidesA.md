@@ -1,9 +1,8 @@
 <!SLIDE title-slide>
-.notes first slide
 
-# First Slide #
+# How could ruby be better? #
 
-<!SLIDE bullets incremental transition=fade>
+<!SLIDE>
 .notes something something something something something something something something something something something something something something something dark side
 
 # Second Slide #
@@ -14,7 +13,7 @@
 * a fourth thing
 * a fifth thing
 
-<!SLIDE bullets>
+<!SLIDE>
 # Third Slide
 
 * Sometimes bullet items
