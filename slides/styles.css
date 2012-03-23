@@ -34,12 +34,10 @@ pre.sh_sourceCode {
 }
 
 .smallcode pre {
-  /* max of 30 */
-  font-size: 30px;
+  font-size: 28px;
 }
 
 .medsmallcode pre {
-  /* max of 30 */
   font-size: 45px;
 }
 
@@ -51,5 +49,5 @@ pre.sh_sourceCode {
 .chadtweet img {
   width: 990px;
   margin-left: -14px;
-  margin-top: -200px;
+  margin-top: -180px;
 }

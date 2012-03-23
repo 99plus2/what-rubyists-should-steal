@@ -68,8 +68,46 @@
 ## Coffeescript is lean and mean:
 
     @@@ coffeescript
-    eat food for food in foods if food inst 'chocolate'
+    eat food for food in foods when food inst 'chocolate'
 
 !SLIDE chadtweet
 
 ![chad](chadtweet.png)
+
+
+!SLIDE 
+# I believe that whitespace is our future
+## (or, maybe, sexps)
+
+!SLIDE code
+    @@@ ruby
+    # Standard ruby.
+    if tired?
+      take_nap
+
+      if still_tired?
+        drink_coffee
+        commence_self_hate
+      end
+    end
+
+    work_on_stuff do |work|
+      procrastinate
+      procrastinate
+      procrastinate
+      work(work)
+    end
+
+!SLIDE code
+    @@@ ruby
+    # Betcha can still read this.
+    if tired?
+      take_nap
+
+      if still_tired?
+        drink_coffee
+        commence_self_hate
+
+    work_on_stuff |work|
+      procrastinate
+      work(work)
