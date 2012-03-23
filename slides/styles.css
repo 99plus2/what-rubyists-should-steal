@@ -37,3 +37,12 @@ pre.sh_sourceCode {
   /* max of 30 */
   font-size: 30px;
 }
+
+.ralph img {
+  width: 600px;
+  margin-top: -300px;
+}
+
+.ralph.content {
+}
+

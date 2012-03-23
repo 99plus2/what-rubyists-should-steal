@@ -5,9 +5,9 @@
 (What Rubyists should steal from Haskell and Clojure)
 
 
-!SLIDE center
+!SLIDE ralph
 
-Ralph goes here.
+<img src="ralph.png">
 
 
 
