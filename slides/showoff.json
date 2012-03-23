@@ -1,12 +1,13 @@
 {
-  "name": "Something",
-  "description": "Example Presentation",
-  "author": "Foo Bar John",
+  "name": "What Rubyists Should Steal",
+  "description": "",
+  "author": "Ben Orenstein",
   "templates" : {
       "special" : "simple.tpl"
   },
   "pause_msg": "Paused !!!",
   "sections": [
-    {"section":"one"}
+    {"section":"talk"},
+    {"section":"magicfs"}
   ]
 }

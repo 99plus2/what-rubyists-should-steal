@@ -1,6 +1,9 @@
 Talk notes:
 
-  * 5-second intro
+  * Talk title
+  * work at thoughtbot
+  * scared
+    * keep your pitchforks until talk stops, then flame me
   * I'm scared right now - dangerous to talk about peoples' fav languages
   * Story about why no haskell - other talk is about boring deployment stuff so you're probably stuck here
   * Starting with coffeescript because it's similar to Ruby
@@ -25,14 +28,25 @@ Talk notes:
       * commas as whitespace
       * dashes instead of underscores
       * syntax sugar as described here: http://briancarper.net/blog/536/
-   * Where to go from here?
-     * learn Clojure
-     * learn coffeescript
-     * fork ruby?!
-   * Recommended reading
-     * Why functional programming matters?
-     * Joy of clojure
+    
+  * MagicFS
+    * At first I couldn't see ruby's flaws
+      * designed in early 90s for HP handhelds
+      * 26 variables a-z
+      * method names are NUMBERS
+      * all system functions are two-letters, case-sensitive
+      * we wrote HOSPITAL SOFTARE in this stuff
 
-To Read:
-* Why functional programming matters
-* Little Schemer
+
+
+=======================
+
+Prep:
+  * usual 
+  * disable notes
+
+
+Maybe:
+  To Read:
+  * Why functional programming matters
+  * Little Schemer
