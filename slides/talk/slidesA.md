@@ -110,4 +110,20 @@
 
     work_on_stuff |work|
       procrastinate
+      procrastinate
+      procrastinate
       work(work)
+
+!SLIDE code
+
+# Englishisms
+
+    @@@ coffeescript
+    # is
+    launchMissles() if launchCode is '1234'
+
+    # isnt
+    falsifyData() if result isnt 'expected'
+
+    # in
+    leaveEarly() unless client in office

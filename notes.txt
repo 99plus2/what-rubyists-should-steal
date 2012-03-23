@@ -1,6 +1,4 @@
 Talk notes:
-    * whitespace sensitivity
-      * show ruby without ends
     * is/isn't/in
     * ?. for soaking up nulls
       * like #try, maybe bad?
