@@ -69,3 +69,7 @@
 
     @@@ coffeescript
     eat food for food in foods if food inst 'chocolate'
+
+!SLIDE chadtweet
+
+![chad](chadtweet.png)
