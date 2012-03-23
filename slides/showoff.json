@@ -8,6 +8,7 @@
   "pause_msg": "Paused !!!",
   "sections": [
     {"section":"talk"},
-    {"section":"magicfs"}
+    {"section":"magicfs"},
+    {"section":"plug"}
   ]
 }

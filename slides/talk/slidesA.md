@@ -19,43 +19,54 @@ I'm scared right now.
 
 !SLIDE
 
-# Haskell:  
-
-## good news and bad news.
-
-
-!SLIDE title-slide
-
-# Three topics #
-
-* Coffeescript
-* Clojure
-* The worst language you've EVER seen
-
+# I have a dirty secret.
 
 
 !SLIDE
-# Third Slide
 
-* Sometimes bullet items
-  * Have sublists
-  * And some sublist items
-    * Have some of their own
-    * And so on
-* But top-level "bullet items" have no bullets
+# I'm going to make it up to you.
 
-Also, sometimes you just want to have plain text sitting in the middle
-of the screen. The quick brown fox jumps over the lazy dog.
 
+!SLIDE
+
+# Comprehensions
+
+
+!SLIDE code center medcode
+
+# How Ruby eats lunch:
+
+    @@@ ruby
+    foods.each { |food| eat(food) }
+
+
+!SLIDE code center bigcode
+
+## Sadly, we cannot eat thusly:
+
+    @@@ ruby
+    foods.each(&:eat)
+
+
+!SLIDE code center
+
+## Coffeescript eats our lunch:
+
+    @@@ coffeescript
+    eat food for food in foods
 
 !SLIDE code
 
-	@@@ ruby
-        def foo(bar)
-          puts "Hey"
+## Ruby gets health conscious:
+
+    @@@ ruby
+        foods.each do |food|
+          eat(food) if food != 'chocolate'
         end
 
+!SLIDE code smallcode
 
-!SLIDE center
+## Coffeescript is lean and mean:
 
-Plug for ebook.
+    @@@ coffeescript
+    eat food for food in foods if food inst 'chocolate'

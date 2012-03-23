@@ -13,6 +13,27 @@ div.slide {
   font-weight: 800;
 }
 
+h2 {
+  font-size: 3.5em;
+}
+
 .slide content magicfs {
   font-size: 55px;
+}
+
+pre.sh_sourceCode {
+  background: transparent;
+}
+
+.medcode pre {
+  font-size: 50px;
+}
+
+.bigcode pre {
+  font-size: 60px;
+}
+
+.smallcode pre {
+  /* max of 30 */
+  font-size: 30px;
 }

@@ -10,6 +10,7 @@ Talk notes:
     * you can see how these things could be brought to the language
   * Things coffescript does better:
     * list comprehensions
+      * my grandmother knows what this does
     * whitespace sensitivity
       * show ruby without ends
     * is/isn't/in
