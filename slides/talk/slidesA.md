@@ -11,10 +11,9 @@
 
 
 
-!SLIDE center
-.notes mailing list joke
+!SLIDE
 
-I'm scared right now.
+# I'm scared right now.
 
 
 !SLIDE
@@ -48,21 +47,21 @@ I'm scared right now.
     foods.each(&:eat)
 
 
-!SLIDE code center
+!SLIDE code center medcode
 
 ## Coffeescript eats our lunch:
 
     @@@ coffeescript
     eat food for food in foods
 
-!SLIDE code
+!SLIDE code medsmallcode 
 
 ## Ruby gets health conscious:
 
     @@@ ruby
-        foods.each do |food|
-          eat(food) if food != 'chocolate'
-        end
+    foods.each do |food|
+      eat(food) if food != 'chocolate'
+    end
 
 !SLIDE code smallcode
 

@@ -38,11 +38,12 @@ pre.sh_sourceCode {
   font-size: 30px;
 }
 
+.medsmallcode pre {
+  /* max of 30 */
+  font-size: 45px;
+}
+
 .ralph img {
   width: 600px;
   margin-top: -300px;
 }
-
-.ralph.content {
-}
-
