@@ -1,6 +1,14 @@
 /* customr css and js files included at the top level of your presentation will
  * will be included in your presentation */
 
-.title-slide h1 {
-  color: black;
+
+div.slide {
+  background-color: #FA6900;
+  background-color: #E0E4CC;
+}
+
+.slide h1, h2, h3, li, p {
+  color: #4A4A46;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
 }

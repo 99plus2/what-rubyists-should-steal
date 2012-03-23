@@ -1,9 +1,11 @@
 <!SLIDE title-slide>
 
-# How could ruby be better? #
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+# What Rubyists should steal from #
+# Haskell and Clojure #
 
 <!SLIDE>
-.notes something something something something something something something something something something something something something something something dark side
 
 # Second Slide #
 
@@ -22,12 +24,14 @@
     * Have some of their own
     * And so on
 * But top-level "bullet items" have no bullets
-  * isn't that odd?
 
 Also, sometimes you just want to have plain text sitting in the middle
 of the screen. The quick brown fox jumps over the lazy dog.
 
-!SLIDE center transition=scrollUp
-.notes another dark side
+<!SLIDE code>
 
-![octocat](octocat.png)
+	@@@ ruby
+        def foo(bar)
+          puts "Hey"
+        end
+
