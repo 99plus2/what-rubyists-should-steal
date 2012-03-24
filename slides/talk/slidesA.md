@@ -70,6 +70,11 @@
     @@@ coffeescript
     eat food for food in foods when food inst 'chocolate'
 
+!SLIDE grammie
+
+![grammie](grammie.jpg)
+
+
 !SLIDE chadtweet
 
 ![chad](chadtweet.png)
@@ -87,7 +92,7 @@
 
       if still_tired?
         drink_coffee
-        commence_self_hate
+        commence_self_hatred
       end
     end
 
@@ -106,7 +111,7 @@
 
       if still_tired?
         drink_coffee
-        commence_self_hate
+        commence_self_hatred
 
     work_on_stuff |work|
       procrastinate

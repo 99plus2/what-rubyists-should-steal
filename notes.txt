@@ -1,9 +1,7 @@
 Talk notes:
-    * is/isn't/in
-    * ?. for soaking up nulls
-      * like #try, maybe bad?
-    * chained comparisons healthy = 200 > cholesterol > 60
   * Things clojure does better:
+    * syntax 
+      * unlimited arguments and no precedence
     * anaphora
     * functions in a lisp~1
     * macros / homoiconicity
@@ -11,10 +9,14 @@ Talk notes:
     * namespaces
     * destructuring
       * proposal to add in JS: http://wiki.ecmascript.org/doku.php?id=proposals:destructuring_assignment
+    * immutability
+      * no defensive copying (no more dup!)
     * stupid stuff
       * commas as whitespace
       * dashes instead of underscores
       * syntax sugar as described here: http://briancarper.net/blog/536/
+    * quote "remember: think globally, but act only through the unified update model."
+
     
   * MagicFS
     * At first I couldn't see ruby's flaws
@@ -31,9 +33,11 @@ Talk notes:
 Prep:
   * usual 
   * disable notes
+  * get mindblown gif in right spot
 
 
 Maybe:
-  To Read:
-  * Why functional programming matters
-  * Little Schemer
+  Coffeescript:
+    * ?. for soaking up nulls
+      * like #try, maybe bad?
+    * chained comparisons healthy = 200 > cholesterol > 60
