@@ -69,3 +69,12 @@ pre.sh_sourceCode {
 .yankleft pre {
   margin-left: 0px;
 }
+
+.contact h2, h3 {
+  text-align: left;
+  margin-left: 40px;
+}
+
+.h3centered h3 {
+  text-align: center;
+}

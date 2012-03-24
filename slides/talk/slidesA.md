@@ -88,7 +88,7 @@
 ![chad](chadtweet.png)
 
 
-!SLIDE 
+!SLIDE h3centered
 # I believe that whitespace is our future.
 ### (Or, maybe, sexps)
 

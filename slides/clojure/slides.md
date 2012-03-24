@@ -66,7 +66,7 @@
 
     @@@ clojure
     (defn text-ex-girlfriend [bac]
-      (if (> bac 0.06)
+      (when (> bac 0.06)
         (send-weepy-message)))
 
 !SLIDE incremental
@@ -119,7 +119,7 @@
        puts "#{%1}: #{%2}" 
     end
 
-!SLIDE
+!SLIDE h3centered
 
 # Secret: you can actually do this.
 
