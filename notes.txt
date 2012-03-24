@@ -1,14 +1,7 @@
 Talk notes:
   * Things clojure does better:
-    * syntax 
-      * unlimited arguments and no precedence
-    * anaphora
-    * functions in a lisp~1
     * macros / homoiconicity
       * metaprogramming is easier - give macro example that you can't do in ruby
-    * namespaces
-    * destructuring
-      * proposal to add in JS: http://wiki.ecmascript.org/doku.php?id=proposals:destructuring_assignment
     * immutability
       * no defensive copying (no more dup!)
     * stupid stuff

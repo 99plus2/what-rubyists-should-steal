@@ -17,13 +17,37 @@
 ![mindblown](mblown.gif)
 
 
-
 !SLIDE 
 
 # Maybe not that good.
 
 # But pretty close.
 
+!SLIDE
+
+# Functional programming.
+## (Highly recommended.)
+
+!SLIDE incremental
+
+# Clojure's functional flavor:
+
+* Programs are composed of functions.
+* Functions depend only on their arguments.
+* Functions are idempotent.
+* Functions have no effect on the world.
+
+!SLIDE 
+
+# Clojure's data types are immutable.
+
+!SLIDE incremental
+
+# Functional/immutable benefits:
+
+* Programs are easy to test.
+* Programs are easier to reason about.
+* Concurrency is possible.
 
 !SLIDE code center
 
@@ -121,3 +145,39 @@
     #=> [2, 4, 6, 8, 10]
 
 http://weblog.raganwald.com/2007/10/stringtoproc.html
+
+
+!SLIDE
+
+# Macros: metaprogramming++
+
+!SLIDE code meta
+
+# From coffeescript:
+
+    @@@ coffeescript
+    lottery.drawWinner?().address?.zipcode
+
+!SLIDE medsmallcode
+
+# "Ported" to ruby:
+
+    @@@ ruby
+    if lottery.respond_to(:draw_winner)
+      winner = lottery.draw_winner
+
+      if winner.address
+        winner.zipcode
+      end
+    end
+
+!SLIDE center cantadd
+
+# You can't add this to ruby. :(
+
+# You can add it to Clojure. :)
+
+
+!SLIDE
+
+# Clojure can do this. With macros.

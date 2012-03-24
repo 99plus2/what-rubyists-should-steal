@@ -41,6 +41,10 @@ pre.sh_sourceCode {
   font-size: 45px;
 }
 
+.meta pre {
+  font-size: 42px;
+}
+
 .ralph img {
   width: 600px;
   margin-top: -300px;
