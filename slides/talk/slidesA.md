@@ -77,7 +77,7 @@
     @@@ coffeescript
     eat food 
       for food in foods 
-      when food inst 'chocolate'
+      when food isnt 'chocolate'
 
 !SLIDE grammie
 
