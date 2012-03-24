@@ -21,6 +21,10 @@ h2 {
   font-size: 55px;
 }
 
+.magicfs p {
+  margin: 0px;
+}
+
 pre.sh_sourceCode {
   background: transparent;
 }
