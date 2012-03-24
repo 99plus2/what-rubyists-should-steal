@@ -47,7 +47,7 @@
 
 * Programs are easy to test.
 * Programs are easier to reason about.
-* Concurrency is possible.
+* Concurrency can be done by mortals.
 
 !SLIDE code center
 
@@ -143,8 +143,6 @@
     (1..5).map &'*2' 
     
     #=> [2, 4, 6, 8, 10]
-
-http://weblog.raganwald.com/2007/10/stringtoproc.html
 
 
 !SLIDE

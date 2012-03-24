@@ -1,13 +1,14 @@
 !SLIDE title-slide
 
-# How could ruby be improved?
+# ruby++ ?
+
 
 
 !SLIDE ralph
 
 <img src="ralph.png">
 
-
+## twitter: r00k
 
 !SLIDE
 
@@ -95,6 +96,7 @@
 !SLIDE code
     @@@ ruby
     # Standard ruby.
+
     if tired?
       take_nap
 
@@ -114,6 +116,7 @@
 !SLIDE code
     @@@ ruby
     # Betcha can still read this.
+
     if tired?
       take_nap
 
