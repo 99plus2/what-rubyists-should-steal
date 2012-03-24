@@ -1,8 +1,6 @@
 !SLIDE title-slide
 
-# Let's make Ruby better! #
-
-(What Rubyists should steal from Haskell and Clojure)
+# How could ruby be improved?
 
 
 !SLIDE ralph
@@ -24,6 +22,14 @@
 !SLIDE
 
 # I'm going to make it up to you.
+
+!SLIDE
+
+# Agenda
+
+* Coffeescript
+* Clojure
+* The worst language EVER (really).
 
 
 !SLIDE
@@ -63,12 +69,14 @@
       eat(food) if food != 'chocolate'
     end
 
-!SLIDE code smallcode
+!SLIDE code medcode
 
 ## Coffeescript is lean and mean:
 
     @@@ coffeescript
-    eat food for food in foods when food inst 'chocolate'
+    eat food 
+      for food in foods 
+      when food inst 'chocolate'
 
 !SLIDE grammie
 
@@ -81,8 +89,8 @@
 
 
 !SLIDE 
-# I believe that whitespace is our future
-## (or, maybe, sexps)
+# I believe that whitespace is our future.
+### (Or, maybe, sexps)
 
 !SLIDE code
     @@@ ruby

@@ -85,17 +85,17 @@
     @@@ clojure
     (filter even? (range 10))
 
-!SLIDE medcode
+!SLIDE medcode yankleft
     @@@ clojure
     (filter 
       (fn [word] (= (count word) 3)) 
-      ["ruby", "foo"])
+      words)
 
 !SLIDE bigcode
     @@@ clojure
     (filter 
       #(= (count %) 3) 
-      ["ruby", "foo"])
+      words)
     
 !SLIDE incremental code
 # Imagine this in ruby!
@@ -153,31 +153,21 @@ http://weblog.raganwald.com/2007/10/stringtoproc.html
 
 !SLIDE code meta
 
-# From coffeescript:
-
+# Remember these?
     @@@ coffeescript
-    lottery.drawWinner?().address?.zipcode
+    # is
+    launchMissles() if launchCode is '1234'
 
-!SLIDE medsmallcode
+    # isnt
+    falsifyData() if result isnt 'expected'
 
-# "Ported" to ruby:
-
-    @@@ ruby
-    if lottery.respond_to(:draw_winner)
-      winner = lottery.draw_winner
-
-      if winner.address
-        winner.zipcode
-      end
-    end
+    # in
+    leaveEarly() unless client in office
 
 !SLIDE center cantadd
 
-# You can't add this to ruby. :(
+# You CAN'T add those to ruby.
 
-# You can add it to Clojure. :)
+----------
 
-
-!SLIDE
-
-# Clojure can do this. With macros.
+# You COULD if it had macros.
