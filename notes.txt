@@ -10,7 +10,6 @@ Talk notes:
       * syntax sugar as described here: http://briancarper.net/blog/536/
     * quote "remember: think globally, but act only through the unified update model."
 
-    
   * MagicFS
     * At first I couldn't see ruby's flaws
       * designed in early 90s for HP handhelds
@@ -24,10 +23,9 @@ Talk notes:
 =======================
 
 Prep:
-  * usual 
+  * usual
   * disable notes
   * get mindblown gif in right spot
-
 
 Maybe:
   Coffeescript:

@@ -30,7 +30,7 @@
 
 * Coffeescript
 * Clojure
-* The worst language EVER (really).
+* The worst language ever (really).
 
 
 !SLIDE
@@ -75,13 +75,9 @@
 ## Coffeescript is lean and mean:
 
     @@@ coffeescript
-    eat food 
-      for food in foods 
+    eat food
+      for food in foods
       when food isnt 'chocolate'
-
-!SLIDE grammie
-
-![grammie](grammie.jpg)
 
 
 !SLIDE chadtweet
@@ -110,7 +106,7 @@
       procrastinate
       procrastinate
       procrastinate
-      work(work)
+      work_on(work)
     end
 
 !SLIDE code
@@ -128,7 +124,7 @@
       procrastinate
       procrastinate
       procrastinate
-      work(work)
+      work_on(work)
 
 !SLIDE code
 
